@@ -1,0 +1,46 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+main{
+	background-color:#FAF8D7;
+	/*height: 100%;*/
+}
+.header{
+	background: #FF9826;
+	height: 70px;
+	width:100%;
+}
+.logo{
+	padding:17px;
+	display:flex;
+	width: 30px;
+	height: 30px;
+	align-items:center;
+	justify-content:center;
+}
+.containerfirst{
+	display:flex;
+	width: 100vw;
+	height: 50vh;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+.containerfirstBlock{
+	padding-top: 20px;
+	width:400px;
+	height:250px;
+}
+.containerfirst__img{
+	width: 100%;
+	/*height: 300px;*/
+	justify-content: center;
+}
+.containerfirst__parag{
+	text-align: justify;
+	width:50vw;
+	padding: 5px;
+	color: #147D3E;
+}
